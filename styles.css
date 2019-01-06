@@ -1,0 +1,241 @@
+/** Color Properties **/
+.colorBackground{
+    background-color:#332d2d;
+}
+.colorContentFrame{
+    background-color:burlywood;
+}
+.colorBorder{
+    background-color:black;
+}
+.light_gray_accent{
+    color:darkgray;
+}
+.light_blue_accent{
+    color: dodgerblue;
+}
+.drab_green_accent{
+    color:darkolivegreen;
+}
+.light_gray_background{
+    background-color:darkgray;
+}
+.light_blue_background{
+    background-color: dodgerblue;
+}
+.drab_green_background{
+    background-color: darkolivegreen;
+}
+
+
+
+
+/** Page **/
+html{
+    width:800px;
+    height: 100%;
+    margin: 0px auto;
+    padding: 0px;
+}
+body{
+    height: inherit;
+    width: 784px;
+}
+div.page_container{
+    height: inherit;
+}
+
+
+
+/* Header and Nav Bar */
+div.header_container{
+    position: fixed;
+    width: 784px;
+    top: 0px;
+}
+header{
+    background-image: url(images/TileGraph.png);
+    border-style: solid;
+    border-width: 8px;
+}
+nav{
+    float: right;
+}
+ul.nav_list{
+    list-style-type: none;
+    margin: 0;
+    padding: 6px;
+    overflow: hidden;
+}
+li.right {
+    float: right;
+}
+li.left {
+    clear: right;
+    float: left;
+}
+li a.button{
+    display: block;
+    color: white;
+    text-align: right;
+    text-decoration: none;
+    
+    height: 40px;
+    background-image: url(images/NavButtons3.png);
+    text-indent: -9999px;
+    display: inline-block;
+}
+a#home{
+    width: 84px;
+    background-position: -8px -12px;
+}
+a#home:hover{
+    width: 84px;
+    background-position: 248px -12px;
+}
+a#home:active{
+    width: 84px;
+    background-position: 120px -12px;
+}
+a#portfolio{
+    width: 116px;
+    background-position: -6px -74px;
+}
+a#portfolio:hover{
+    width: 116px;
+    background-position: 250px -74px;
+}
+a#portfolio:active{
+    width: 116px;
+    background-position: 122px -74px;
+}
+a#about{
+    width: 86px;
+    background-position: -8px -138px;
+}
+a#about:hover{
+    width: 86px;
+    background-position: 248px -138px;
+}
+a#about:active{
+    width: 86px;
+    background-position: 120px -138px;
+}
+a#contact{
+    width: 114px;
+    background-position: -6px -204px;
+}
+a#contact:hover{
+    width: 114px;
+    background-position: 250px -204px;
+}
+a#contact:active{
+    width: 114px;
+    background-position: 122px -204px;
+}
+
+figure.landscape{
+    margin: 0;
+/*    padding: 8px;*/
+    height: 270px;
+}
+.heading_text{
+    width: 760px;
+    height: 64px;
+    padding: 4px;
+    margin-top: 8px;
+    text-align: center;
+}
+
+
+
+/* Main Page Content Section */
+div.header_buffer{
+    height: 96px;
+}
+iframe{   
+    width: 784px;
+    border-style: hidden;
+    overflow: hidden;    
+/*    position: absolute;*/
+    top: 453px;
+    z-index: -1;
+}
+div.footer_buffer{
+    height: 64px;
+}
+
+
+
+/** Subframe Page and section **/
+body.subframe{
+    height: auto;
+}
+div.subframe{
+    width: 768px;
+    padding-top: 8px;
+    position: relative;
+}
+table{
+    table-layout: fixed;
+    width: 100%;
+}
+td.triColumn{
+    width: 33%;
+    min-height: 80px;
+    padding: 8px;
+    vertical-align: text-top;
+}
+figure.fromTable{
+    width: 100%;
+    margin: 0px;
+    align-content: center;
+    text-align: center;
+}
+div.formright{
+    width: 60%;
+    position: absolute;
+    right: 0px;
+}
+.imageright{
+    width: 34%;
+    float: right;
+    margin: 8px;
+}
+#formright{
+    height: 216px;
+    width: 40%;
+}
+#bio_trailing{
+    height: 688px;
+}
+img#marg{
+    margin: 4px;
+}
+p.subframe{
+    margin: 8px;
+}
+
+
+/* Page Footer */
+footer{
+    position: fixed;
+    padding: 8px;
+    bottom: 0px;
+    width: 768px;
+}
+div.inner_footer{
+    margin: 0px;
+    bottom: 0px;
+    height: auto;
+}
+div#buttons{
+    float: left;
+    padding: 12px;
+    width: 10%;
+}
+aside{
+    text-align: right;
+    width: 752px;
+    padding: 5px;
+}

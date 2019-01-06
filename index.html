@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <base target="content_frame">
+        <meta charset="UTF-8">
+        <title>Raymond's homepage</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script type="text/javascript">
+          function resizeIframe(iframe) {
+            iframe.height = (iframe.contentWindow.document.body.offsetHeight + 16) + "px";
+          }
+        </script>         
+    </head>
+
+    <body class="colorBackground">
+        <div class="page_container">
+            
+            <div class="header_container colorBorder">   
+                <header>
+                    <a href="images/technicalartist.png"><img src="images/techartlogo.png" alt="Raymond Stewart, Technical Artist"></a>
+                    <nav>
+                        <ul class="nav_list">
+                            <li class="left"><a class="button" id="home" href="intro/index.html"></a></li>
+                            <li class="right"><a class="button" id="portfolio" href="porfolio/index.html"></a></li>
+                            <li class="left"><a class="button" id="about" href="about/index.html"></a></li>
+                            <li class="right"><a class="button" id="contact" href="contact/index.html"></a></li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+            
+            <div class="header_buffer"></div>
+            <iframe name="content_frame" onload="resizeIframe(this)" scrolling="no" src="intro/index.html"></iframe>
+            <div class="footer_buffer"></div>
+
+            
+            <footer class="colorBorder">
+                <div class="inner_footer colorBackground" >
+                    <div id="buttons">
+                        <a href="http://www.linkedin.com/in/apocalypse2012/" target="_blank"><img src="images/linkedin-32x32.png" alt="linkedIn button"></a>
+                        <a href="https://drive.google.com/file/d/1T4td9Yf1G3ruTIL4pzL6L9JFFQtRjTKl/view?usp=sharing" target="_blank"><img src="images/Resume.png" alt="link to PDF resume"></a>
+                    </div>
+                    <aside class="light_gray_accent">
+                        <p>Copyright © Raymond Stewart 2018</p>
+                    </aside>
+                </div>
+            </footer>
+            
+        </div>
+    </body>
+
+</html>
+
+
